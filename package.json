@@ -1,0 +1,38 @@
+{
+  "name": "alain-twitterbot-serverless",
+  "version": "0.1.0",
+  "description": "look ma, no server!",
+  "private": true,
+  "main": "handler.js",
+  "scripts": {
+    "test": "standard",
+    "deploy-all": "serverless deploy -v",
+    "deploy-function": "serverless deploy function --function tweet -v",
+    "remove": "serverless remove"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergile/alain-twitterbot-serverless.git"
+  },
+  "keywords": [
+    "alain",
+    "twitter",
+    "bot",
+    "twitterbot",
+    "serverless",
+    "yusss!"
+  ],
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergile/alain-twitterbot-serverless/issues"
+  },
+  "homepage": "https://github.com/sergile/alain-twitterbot-serverless#readme",
+  "dependencies": {
+    "alain": "^0.4.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
